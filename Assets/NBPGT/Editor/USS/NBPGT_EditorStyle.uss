@@ -1,0 +1,22 @@
+NBPGT_View{
+	flex-grow: 1;
+}
+NB_TreeView{
+	flex-grow: 1;
+}
+#Grid
+{
+	--thick-lines: 0;
+	--spacing: 20;
+	--grid-background-color: rgb(30,30,30);
+	--line-color: rgb(60,60,60);
+	--thick-line-color: rgb(100,100,100)
+}
+.unity-composite-field__field-spacer
+{
+	flex-grow: 0;
+}
+.unity-vector2-field__input
+{
+	min-width: 100px;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "NBPGT_Editor",
+    "rootNamespace": "HCZ.NBPGT.Editor",
+    "references": [
+        "GUID:84144e61d49028642a25f582c33d000c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

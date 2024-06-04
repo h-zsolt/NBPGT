@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5461a191420f235468e6225ad1e63ff1, type: 3}
+  m_Name: MidpointDisplacement
+  m_EditorClassIdentifier: 
+  m_nodes:
+  - rid: 3970498264807243803
+  - rid: 3970498264807243804
+  - rid: 3970498264807243805
+  - rid: 3970498264807243806
+  - rid: 3970498264807243807
+  - rid: 3970498264807243809
+  - rid: 3970498264807243810
+  - rid: 3970498264807243811
+  - rid: 3970498264807243812
+  - rid: 3970498264807243813
+  - rid: 3970498264807243814
+  - rid: 3970498264807243815
+  - rid: 3970498264807243816
+  - rid: 3970498264807243818
+  - rid: 3970498303093112832
+  - rid: 3970498303093112833
+  - rid: 3970498303093112834
+  - rid: 3970498303093112835
+  - rid: 3970498303093112836
+  - rid: 3970498303093112837
+  m_connections:
+  - inputPort:
+      nodeID: a44b595e-570a-471c-ac4a-ac25e6284511
+      nodeIndex: 2
+    outputPort:
+      nodeID: 7f8e776f-6c46-42cc-a40d-4b5a4144f3f0
+      nodeIndex: 0
+  - inputPort:
+      nodeID: 54024bed-5fa1-4f62-9666-f1bf600c5f01
+      nodeIndex: 0
+    outputPort:
+      nodeID: b016a332-ebf2-424a-8ad0-c7dcdaf83bcd
+      nodeIndex: 2
+  - inputPort:
+      nodeID: e582ef15-fd9e-4b8e-b8a4-a530642a9322
+      nodeIndex: 0
+    outputPort:
+      nodeID: 91e53b21-b5be-495c-8bcd-42dfd973f215
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 91e53b21-b5be-495c-8bcd-42dfd973f215
+      nodeIndex: 4
+    outputPort:
+      nodeID: 748d644b-0c7b-4b69-a9bf-908937229cac
+      nodeIndex: 0
+  - inputPort:
+      nodeID: e582ef15-fd9e-4b8e-b8a4-a530642a9322
+      nodeIndex: 2
+    outputPort:
+      nodeID: 748d644b-0c7b-4b69-a9bf-908937229cac
+      nodeIndex: 0
+  - inputPort:
+      nodeID: e582ef15-fd9e-4b8e-b8a4-a530642a9322
+      nodeIndex: 3
+    outputPort:
+      nodeID: fab0da00-b9d1-4452-8a28-cd8c5005c94b
+      nodeIndex: 0
+  - inputPort:
+      nodeID: 5a4b7c11-f0ba-401e-9cac-499f2b8788e8
+      nodeIndex: 0
+    outputPort:
+      nodeID: e582ef15-fd9e-4b8e-b8a4-a530642a9322
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 5a4b7c11-f0ba-401e-9cac-499f2b8788e8
+      nodeIndex: 2
+    outputPort:
+      nodeID: e582ef15-fd9e-4b8e-b8a4-a530642a9322
+      nodeIndex: 4
+  - inputPort:
+      nodeID: a44b595e-570a-471c-ac4a-ac25e6284511
+      nodeIndex: 0
+    outputPort:
+      nodeID: a5c35472-a97b-43fd-a37f-b50969db0c0e
+      nodeIndex: 0
+  - inputPort:
+      nodeID: 796082a1-9155-425c-a114-781999751bfd
+      nodeIndex: 2
+    outputPort:
+      nodeID: 54024bed-5fa1-4f62-9666-f1bf600c5f01
+      nodeIndex: 3
+  - inputPort:
+      nodeID: d082dd54-bc72-4764-9434-ffc974c5e084
+      nodeIndex: 0
+    outputPort:
+      nodeID: a44b595e-570a-471c-ac4a-ac25e6284511
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 13982b44-f6b7-4832-880e-67c3a51864ff
+      nodeIndex: 0
+    outputPort:
+      nodeID: d082dd54-bc72-4764-9434-ffc974c5e084
+      nodeIndex: 1
+  - inputPort:
+      nodeID: b016a332-ebf2-424a-8ad0-c7dcdaf83bcd
+      nodeIndex: 0
+    outputPort:
+      nodeID: 13982b44-f6b7-4832-880e-67c3a51864ff
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 796082a1-9155-425c-a114-781999751bfd
+      nodeIndex: 0
+    outputPort:
+      nodeID: 54024bed-5fa1-4f62-9666-f1bf600c5f01
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 91e53b21-b5be-495c-8bcd-42dfd973f215
+      nodeIndex: 0
+    outputPort:
+      nodeID: 796082a1-9155-425c-a114-781999751bfd
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 7d682d16-497b-4df3-871a-2adb76b74f9f
+      nodeIndex: 0
+    outputPort:
+      nodeID: 748d644b-0c7b-4b69-a9bf-908937229cac
+      nodeIndex: 0
+  - inputPort:
+      nodeID: 6aa596b7-e218-4d9b-abf2-e5ed31fc35c0
+      nodeIndex: 0
+    outputPort:
+      nodeID: 5a4b7c11-f0ba-401e-9cac-499f2b8788e8
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 6aa596b7-e218-4d9b-abf2-e5ed31fc35c0
+      nodeIndex: 2
+    outputPort:
+      nodeID: 7d682d16-497b-4df3-871a-2adb76b74f9f
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 2bd89eb5-23db-40b0-8de4-e916d687bec3
+      nodeIndex: 1
+    outputPort:
+      nodeID: a5c35472-a97b-43fd-a37f-b50969db0c0e
+      nodeIndex: 1
+  - inputPort:
+      nodeID: 2bd89eb5-23db-40b0-8de4-e916d687bec3
+      nodeIndex: 0
+    outputPort:
+      nodeID: dc862ea1-315d-42a2-974e-8789989d9882
+      nodeIndex: 0
+  - inputPort:
+      nodeID: cb22c602-29d0-418c-98f1-7426ab061f7d
+      nodeIndex: 4
+    outputPort:
+      nodeID: 2bd89eb5-23db-40b0-8de4-e916d687bec3
+      nodeIndex: 2
+  - inputPort:
+      nodeID: 7d74728f-71f3-4163-8b10-f32a22ba7c9b
+      nodeIndex: 0
+    outputPort:
+      nodeID: b016a332-ebf2-424a-8ad0-c7dcdaf83bcd
+      nodeIndex: 1
+  - inputPort:
+      nodeID: cb22c602-29d0-418c-98f1-7426ab061f7d
+      nodeIndex: 0
+    outputPort:
+      nodeID: 7d74728f-71f3-4163-8b10-f32a22ba7c9b
+      nodeIndex: 1
+  targetObject: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3970498264807243803
+      type: {class: EntryNode, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: a5c35472-a97b-43fd-a37f-b50969db0c0e
+        m_position:
+          serializedVersion: 2
+          x: -248
+          y: 107
+          width: 266
+          height: 118
+        typeName: HCZ.NBPGT.EntryNode, NBPGT, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        outputIndex: 0
+        inputIndex: -1
+        seed: 123453
+        offset: {x: 0, y: 0}
+        generatedNodes: []
+    - rid: 3970498264807243804
+      type: {class: GenerateXNodes, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: a44b595e-570a-471c-ac4a-ac25e6284511
+        m_position:
+          serializedVersion: 2
+          x: 121
+          y: 166
+          width: 153
+          height: 102
+        typeName: HCZ.NBPGT.GenerateXNodes, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        toGen: 0
+    - rid: 3970498264807243805
+      type: {class: IntInputNode, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 7f8e776f-6c46-42cc-a40d-4b5a4144f3f0
+        m_position:
+          serializedVersion: 2
+          x: -234
+          y: 315
+          width: 252
+          height: 118
+        typeName: HCZ.NBPGT.IntInputNode, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: -1
+        inputIndex: -1
+        m_name: StartingNodes
+        m_value: 2
+    - rid: 3970498264807243806
+      type: {class: ConnectRandomlyNode, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: d082dd54-bc72-4764-9434-ffc974c5e084
+        m_position:
+          serializedVersion: 2
+          x: 334
+          y: 166
+          width: 208
+          height: 206
+        typeName: HCZ.NBPGT.ConnectRandomlyNode, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        selectedFrom: 0
+        selectedTo: 0
+        count: 1
+    - rid: 3970498264807243807
+      type: {class: NrOfNodesRule, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: b016a332-ebf2-424a-8ad0-c7dcdaf83bcd
+        m_position:
+          serializedVersion: 2
+          x: 1011
+          y: 166
+          width: 194
+          height: 184
+        typeName: HCZ.NBPGT.NrOfNodesRule, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        conditionMet: 0
+        truePortIndex: 1
+        falsePortIndex: 2
+        maxFailCount: 100
+        m_currentFailCount: 0
+        nodeCount: 100
+        moreThan: 1
+    - rid: 3970498264807243809
+      type: {class: LineAligner, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 13982b44-f6b7-4832-880e-67c3a51864ff
+        m_position:
+          serializedVersion: 2
+          x: 668
+          y: 166
+          width: 243
+          height: 208
+        typeName: HCZ.NBPGT.LineAligner, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        useOnlySelectedNodes: 0
+        distanceBetween: {x: 1000, y: 0}
+        startLoc: {x: 0, y: 0}
+    - rid: 3970498264807243810
+      type: {class: MidPointGenerator, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 54024bed-5fa1-4f62-9666-f1bf600c5f01
+        m_position:
+          serializedVersion: 2
+          x: 1320
+          y: 230
+          width: 191
+          height: 120
+        typeName: HCZ.NBPGT.MidPointGenerator, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        useOnlySelectedNodes: 0
+    - rid: 3970498264807243811
+      type: {class: SelectNodes, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 796082a1-9155-425c-a114-781999751bfd
+        m_position:
+          serializedVersion: 2
+          x: 1573
+          y: 230
+          width: 142
+          height: 102
+        typeName: HCZ.NBPGT.SelectNodes, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        m_selectionTargets: []
+    - rid: 3970498264807243812
+      type: {class: Diffuser, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 91e53b21-b5be-495c-8bcd-42dfd973f215
+        m_position:
+          serializedVersion: 2
+          x: 1772
+          y: 230
+          width: 266
+          height: 208
+        typeName: HCZ.NBPGT.Diffuser, NBPGT, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        useOnlySelectedNodes: 1
+        xRange: {x: 0, y: 0}
+        yRange: {x: -1, y: 1}
+    - rid: 3970498264807243813
+      type: {class: Vector2xFloatNode, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: e582ef15-fd9e-4b8e-b8a4-a530642a9322
+        m_position:
+          serializedVersion: 2
+          x: 2138
+          y: 345
+          width: 180
+          height: 146
+        typeName: HCZ.NBPGT.Vector2xFloatNode, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        first: {x: 0, y: 0}
+        second: 0
+    - rid: 3970498264807243814
+      type: {class: Vector2Input, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 748d644b-0c7b-4b69-a9bf-908937229cac
+        m_position:
+          serializedVersion: 2
+          x: 1405
+          y: 474
+          width: 266
+          height: 118
+        typeName: HCZ.NBPGT.Vector2Input, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: -1
+        inputIndex: -1
+        m_name: DiffuseRange
+        m_value: {x: -250, y: 250}
+    - rid: 3970498264807243815
+      type: {class: FloatInputNode, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: fab0da00-b9d1-4452-8a28-cd8c5005c94b
+        m_position:
+          serializedVersion: 2
+          x: 1772
+          y: 649
+          width: 226
+          height: 118
+        typeName: HCZ.NBPGT.FloatInputNode, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: -1
+        inputIndex: -1
+        m_name: Smoother
+        m_value: 0.66
+    - rid: 3970498264807243816
+      type: {class: SetVector2Node, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 5a4b7c11-f0ba-401e-9cac-499f2b8788e8
+        m_position:
+          serializedVersion: 2
+          x: 2358
+          y: 345
+          width: 266
+          height: 166
+        typeName: HCZ.NBPGT.SetVector2Node, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        newValue: {x: 0, y: 0}
+        targetName: DiffuseRange
+    - rid: 3970498264807243818
+      type: {class: ExportToObject, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: a91e286d-89ba-4243-9529-51e3ed18f159
+        m_position:
+          serializedVersion: 2
+          x: 1827
+          y: -451
+          width: 182
+          height: 162
+        typeName: HCZ.NBPGT.ExportToObject, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        useOnlySelectedNodes: 0
+        useOffset: 1
+    - rid: 3970498303093112832
+      type: {class: Vector2ToString, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 7d682d16-497b-4df3-871a-2adb76b74f9f
+        m_position:
+          serializedVersion: 2
+          x: 2138
+          y: 517
+          width: 266
+          height: 98
+        typeName: HCZ.NBPGT.Vector2ToString, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: -1
+        inputIndex: -1
+        m_vector: {x: 0, y: 0}
+    - rid: 3970498303093112833
+      type: {class: DebugLogNode, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 6aa596b7-e218-4d9b-abf2-e5ed31fc35c0
+        m_position:
+          serializedVersion: 2
+          x: 2674
+          y: 410
+          width: 294
+          height: 122
+        typeName: HCZ.NBPGT.DebugLogNode, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        logMessage: Debug Log Node Test
+    - rid: 3970498303093112834
+      type: {class: ExportToFile, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: cb22c602-29d0-418c-98f1-7426ab061f7d
+        m_position:
+          serializedVersion: 2
+          x: 1827
+          y: -230
+          width: 182
+          height: 186
+        typeName: HCZ.NBPGT.ExportToFile, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        useOnlySelectedNodes: 0
+        useOffset: 1
+        objectName: Assets/NBPGT/Generative Graphs/Output/New
+    - rid: 3970498303093112835
+      type: {class: AddStrings, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 2bd89eb5-23db-40b0-8de4-e916d687bec3
+        m_position:
+          serializedVersion: 2
+          x: 410
+          y: -91
+          width: 132
+          height: 102
+        typeName: HCZ.NBPGT.AddStrings, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: -1
+        inputIndex: -1
+        m_first: 
+        m_second: 
+    - rid: 3970498303093112836
+      type: {class: StringInputNode, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: dc862ea1-315d-42a2-974e-8789989d9882
+        m_position:
+          serializedVersion: 2
+          x: -248
+          y: -40
+          width: 436
+          height: 118
+        typeName: HCZ.NBPGT.StringInputNode, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: -1
+        inputIndex: -1
+        m_name: OutputPath
+        m_value: Assets/NBPGT/Generative Graphs/Output/Diffuse_
+    - rid: 3970498303093112837
+      type: {class: AddNodeVisual, ns: HCZ.NBPGT, asm: NBPGT}
+      data:
+        m_guid: 7d74728f-71f3-4163-8b10-f32a22ba7c9b
+        m_position:
+          serializedVersion: 2
+          x: 1323
+          y: -26
+          width: 377
+          height: 146
+        typeName: HCZ.NBPGT.AddNodeVisual, NBPGT, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        outputIndex: 1
+        inputIndex: 0
+        targetPath: Assets/Resources/Images/Circle.png
